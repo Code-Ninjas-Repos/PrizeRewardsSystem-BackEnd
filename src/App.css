@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #9D50BB 0%, #6E48AA 100%); /* purple to dark purple gradient */
+  color: #FFFFFF; /* white text for contrast */
+}
+
+.home {
+  height: 100vh; /* take full height of the viewport */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* center content vertically */
+  padding: 40px;
+  background: inherit; /* take the gradient background from .App */
+}
+
+.signup, .login {
+  margin: 50px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1); /* semi-transparent white for form backgrounds */
+  border-radius: 10px; /* rounded corners */
+  backdrop-filter: blur(5px); /* blurring the background for frosted glass effect */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center; /* center form fields */
+}
+
+.formfield {
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.7); /* more opaque white for input fields */
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.Dashboard {
+  margin: 5em;
+  align-items: center;
+  background: inherit; /* take the gradient background from .App */
+}
