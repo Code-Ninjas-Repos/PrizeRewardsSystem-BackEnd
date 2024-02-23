@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif; /* A clean, modern font */
+  background-color: #FFFFFF; /* Bright white background */
+  color: #333333; /* Dark grey for text, ensuring good readability */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'JetBrains Mono', monospace; /* A crisp, clear monospaced font */
+  background-color: #F5F5F5; /* Very light grey for code blocks, adding a subtle distinction */
+  color: #D32F2F; /* A vibrant red for code, drawing attention */
+  padding: 0.5em;
+  border-radius: 4px;
+  border: 1px solid #E0E0E0; /* Light border to define the edges of code blocks */
+}
